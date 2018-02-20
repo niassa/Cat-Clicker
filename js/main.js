@@ -6,7 +6,7 @@ var $countID = "";
 
 var cat = {
 	name: ["Kitty One", "Kitty Two", "Kitty Three"],
-	imgURL: ["cat.jpg", "cat2.jpg", "cat.jpg"],
+	imgURL: ["imgs/cat.jpg", "imgs/cat2.jpg", "imgs/cat.jpg"],
 	imgAlt: ["Cute cat #1", "Cute cat #2", "Cute Cat #3"],
 	id: ["cat1", "cat2", "cat3"],
 	count: [0,0,0],
