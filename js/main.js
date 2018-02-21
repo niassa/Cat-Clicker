@@ -77,6 +77,10 @@ function runImagePreload() {
 		var image = '<img class="imgPreloader" src="' + cat.imgURL[i] + '">';
 		$('.content').append(image);
 	}
+	for (var j = 0; j < $('.content').length; j++) {
+		$('.content').children()[j].remove();
+	}
+	$('.content').append(blankTxt);
 };
 
 runImagePreload();
