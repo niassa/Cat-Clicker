@@ -110,3 +110,9 @@ select {
 	height: 100px;
 	background: #BFF08E;
 }
+
+.imgPreloader {
+	width: 600px;
+	margin-left: -601px;
+	display: none;
+}
